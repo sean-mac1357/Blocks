@@ -11,10 +11,12 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
             NavigationView {
-                Text("Tab Content 1")
+                Text("Text")
+                    .font(.title2)
+                    .fontWeight(.bold)
                     .navigationTitle("News")
             }
-            .tabItem { /*@START_MENU_TOKEN@*/Text("News")/*@END_MENU_TOKEN@*/ }.tag(1)
+            .tabItem { Text("News") }.tag(1)
             NavigationView {
                 Text("Tab Content 2")
                     .navigationTitle("Products")
@@ -26,6 +28,7 @@ struct ContentView: View {
             }
             .tabItem { Text("Chat") }.tag(3)
         }
+        .accentColor(/*@START_MENU_TOKEN@*/.red/*@END_MENU_TOKEN@*/)
     }
 }
 
