@@ -13,13 +13,7 @@ struct ContentView: View {
             NavigationView {
                 List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
                     NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
-                        NewsCell(
-                            image: Image(systemName: "photo"),
-                            text: Text("Text"),
-                            detailText: Text("Detail Text"),
-                            tertiaryText: Text("Tertiary Text"),
-                            largeImage: Image(systemName: "photo")
-                        )
+                        NewsCell(article: .airBlock)
                     }
                 }
                 .navigationTitle("News")
