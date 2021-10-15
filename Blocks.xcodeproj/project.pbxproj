@@ -15,6 +15,7 @@
 		14445A2A2713FEB600F2A68F /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14445A292713FEB600F2A68F /* Article.swift */; };
 		14445A2C2713FF9F00F2A68F /* Article+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14445A2B2713FF9F00F2A68F /* Article+Mock.swift */; };
 		14445A2E27181E6F00F2A68F /* NewsCell+Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14445A2D27181E6F00F2A68F /* NewsCell+Article.swift */; };
+		14445A302719336C00F2A68F /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14445A2F2719336C00F2A68F /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		14445A292713FEB600F2A68F /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		14445A2B2713FF9F00F2A68F /* Article+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Article+Mock.swift"; sourceTree = "<group>"; };
 		14445A2D27181E6F00F2A68F /* NewsCell+Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewsCell+Article.swift"; sourceTree = "<group>"; };
+		14445A2F2719336C00F2A68F /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				14445A192712B13700F2A68F /* BlocksApp.swift */,
 				14445A1B2712B13700F2A68F /* ContentView.swift */,
+				14445A2F2719336C00F2A68F /* ProductCell.swift */,
 				14445A292713FEB600F2A68F /* Article.swift */,
 				14445A2B2713FF9F00F2A68F /* Article+Mock.swift */,
 				14445A272713F32700F2A68F /* NewsCell.swift */,
@@ -154,6 +157,7 @@
 				14445A1C2712B13700F2A68F /* ContentView.swift in Sources */,
 				14445A282713F32700F2A68F /* NewsCell.swift in Sources */,
 				14445A2C2713FF9F00F2A68F /* Article+Mock.swift in Sources */,
+				14445A302719336C00F2A68F /* ProductCell.swift in Sources */,
 				14445A1A2712B13700F2A68F /* BlocksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
