@@ -21,8 +21,12 @@ struct ContentView: View {
             .tabItem { Label(/*@START_MENU_TOKEN@*/"News"/*@END_MENU_TOKEN@*/, systemImage: "newspaper.fill") }
             .tag(1)
             NavigationView {
-                Text("Tab Content 2")
-                    .navigationTitle("Products")
+                List(Product.mocks) { product in
+                    NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
+                        ProductCell(product: product)
+                    }
+                }
+                .navigationTitle("Products")
             }
             .tabItem { Label("Products", systemImage: "cart.fill") }.tag(2)
             NavigationView {
